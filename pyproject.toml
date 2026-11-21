@@ -1,0 +1,9 @@
+[project]
+name = "mnhi-3-0"
+version = "3.0.0"
+description = "Motor Causal MNHI 3.0 — Causalidade Topologica Verificavel e Governada"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

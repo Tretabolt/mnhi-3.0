@@ -1,0 +1,11 @@
+services:
+  mnhi-sandbox:
+    build: .
+    container_name: mnhi_3_jail
+    network_mode: "none"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 512m
